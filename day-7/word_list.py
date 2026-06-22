@@ -1,3 +1,5 @@
+import random
+
 hangman_words = {
     "animals": [
         "tiger", "lion", "zebra", "panda", "rabbit", "monkey",
@@ -91,3 +93,6 @@ hangman_words = {
         "lamp", "clock", "cabinet", "faucet", "shower"
     ]
 }
+
+word_vals = hangman_words.values()
+print(word_vals)
